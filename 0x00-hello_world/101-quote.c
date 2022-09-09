@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * main - program entry point
+ *
+ * Return: 1 on success
+ * */
+int main(void)
+{
+(2, "and that piece of art is useful\"- Doro Korpar, 2015-10-19\n",59);
+
+return (1);
+}
