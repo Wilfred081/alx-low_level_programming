@@ -1,12 +1,14 @@
-
 #include <stdio.h>
+
 /**
-*main - Entry point
+* main - print the string in the put function
 *
-*Return: 0
+* Description: using the main function
+* this program prints "programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
-          puts("\"programming is like building a multilingual puzzle"); 
-          return (0);
+   puts("\"programming is like building a multilingual puzzle");
+   return (0);
 }
