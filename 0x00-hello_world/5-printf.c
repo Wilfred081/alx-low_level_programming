@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - print a string
-* Description: use printf
+* main - entry point for the program
+*
 * Return: 0 if no errors, return non zero if errors
 */
 int main(void)
