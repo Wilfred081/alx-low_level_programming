@@ -1,6 +1,6 @@
-#include <stdlib.h> 
+#include <stdio.h> 
+#include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
 * main - Entry point
@@ -18,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 L = n % 10;
 
 if (L > 5)
-printf("% %d is %d and is great than 5\n", str, n, L);
+printf("%s %d is %d and is great than 5\n", str, n, L);
 
 else if (L == 0)
 
