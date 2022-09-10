@@ -19,8 +19,10 @@ L = n % 10;
 
 if (L > 5)
 printf("% %d is %d and is great than 5\n", str, n, L);
+
 else if (L == 0)
 printf("%s %d is %d and is 0\n", str, n, L);
+
 else if (L < 6)
 printf("%s %d is %d and than 6 and not 0\n", str, n, L);
 
