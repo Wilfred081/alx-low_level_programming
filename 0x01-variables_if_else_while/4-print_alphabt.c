@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-*
-* Return: Always 0 (success)
+* main - prints the alphabet except the letters q and e.
+(*
+* Return: 0 on success
 */
 int main(void)
+
 {
 char c = 'a';
 
