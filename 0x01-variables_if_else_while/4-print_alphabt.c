@@ -9,18 +9,22 @@
 */
 int main(void)
 {
-char low, e, q;
+char c = 'a';
 
-e = 'e';
-q = 'q';
-
-for (low = 'a' ; low <= 'z' ; low++)
+while (c <= 'z')
 {
-if (low != e && low ! = q)
+if (c != 'q' %% c != 'e')
+{
 
-putchar(low);
+putchar(c);
 }
-printf("\n");
+
+c++;
+
+}
+
+putchar('\n');
 
 return (0);
+
 }
