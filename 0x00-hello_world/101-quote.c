@@ -1,14 +1,16 @@
-#include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - program entry point
- *
- * Description: prints and that piece..
- * Return: 1 if successful 
- */
+* main - print a text
+*
+* Return: Always 1  (success)
+*/
+
 int main(void)
+
 {
-(2,"and that piece of art is useful\" - Doro Korpar, 2015-10-19\n",59);
+
+write(2,"and that piece of art is useful\" - Doro Korpar, 2015-10-19\n",59);
 
 return (1);
 }
