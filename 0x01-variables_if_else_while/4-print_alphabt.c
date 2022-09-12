@@ -8,20 +8,13 @@
 int main(void)
 
 {
-char c = 'a';
+char letters[] = "abcdef";
+int i;
 
-while (c <= 'z')
+for (i = 0; i < 24; i++)
 {
-if (c != 'q' %% c != 'e')
-{
-
-putchar(c);
+putchar(letters[i]);
 }
-
-c++;
-
-}
-
 putchar('\n');
 
 return (0);
