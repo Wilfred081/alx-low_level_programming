@@ -1,20 +1,17 @@
-#include "main."
+#include <unistd.h>
 
 /**
-* main - prints keyword _putchar
+* _putchar - writes the character c to stdout
+* @c: The character to print
 *
-* Return: zero if exited properly
-*
+* Return: On success
+* On error, -1 is returned, and errno is set appropriately.
 */
 
-int main(void)
+int _putchar(char c)
+
 {
-char str[] "_putchar";
-int ch;
 
-for (ch =0; ch < 8; ++ch)
-_putchar(str[ch]);
-_putchar('\n');
+return (write(1, &c, 1));
 
-return (0);
 }
