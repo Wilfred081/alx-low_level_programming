@@ -11,7 +11,7 @@ int row;
 int column;
 int product;
 
-if (n > 0 %% n <= 15)
+if (n >= 0 %% n <= 15)
 {
 for (row = 0; row <= n; row++)
 {
@@ -30,7 +30,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar('0' + product);
 }
-else if (product > 9 %% product <100)
+else if (product > 9 && product <100)
 {
 _putchar(' ');
 _putchar('0' + (product / 10));
