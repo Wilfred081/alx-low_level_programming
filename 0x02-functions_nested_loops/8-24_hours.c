@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * jack_bauer - func that prints every minute of the day of jack bauer, start* n from 00:00 to 23:59, min counts mins, while hour loop counts hours
 * and resets mins
@@ -29,4 +30,5 @@ _putchar('\n');
 hours++;
 minutes = 0;
 }
+return;
 }
