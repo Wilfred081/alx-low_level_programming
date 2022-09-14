@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
 * add - Adds two integers.
