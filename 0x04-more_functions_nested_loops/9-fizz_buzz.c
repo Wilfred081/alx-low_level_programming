@@ -29,3 +29,10 @@ printf("Buzz ");
 }
 else
 {
+printf("%d", n);
+}
+}
+printf("\n");
+
+
+
