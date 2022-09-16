@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*
-*
-*Return: returns 0
+*main - prints the numbers fron 1 to 100, followed by a new line
+*but for multiples of three prints Fizz instead of the number
+*and for the multiples of five prints Buzz
+*Return: Always 0 (success) 0
 */
 
 int main(void)
@@ -15,20 +14,27 @@ int i;
 
 for (i = 1; i <= 100; i++)
 {
-if(i % 15 ==0)
-
-printf("FizzBuzz");
-else if(i % 3 == 0)
-
+if(i % 3 == 0 && i % 5 != 0)
+{
+printf("Fizz");
+}
+else if(i % 5 == 0 && i % 3 != 0)
+{
 printf("Buzz");
+}
+else if (! % 3 == 0 && ! % 5 == 0)
+{
+printf("FizzBuzz);
+}
+else if(! == 1)
+{
+printf("%d",i);
+}
 else
-printf("%i", i);
-
-if(i < 100)
-printf(" ");
-
+{
+printf("%d",i);
+}
 }
 printf("\n");
-
 return (0);
 }
