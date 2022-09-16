@@ -2,7 +2,7 @@
 
 /**
 * print_triangle - prints a triangle with #'s with given size
-* @size size of triangle to draw
+* @size: size of triangle to draw
 */
 
 void print_triangle(int size)
