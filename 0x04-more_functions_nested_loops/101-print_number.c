@@ -17,7 +17,7 @@ else
 if (n < 0)
 {
 postive = n * -1;
-_putchar('-');
+_putchar('_');
 }
 
 while (t_beg <= positive)
