@@ -16,7 +16,7 @@ unsigned int i;
 
 va_start(aps, n);
 
-for (i = 0; i < n; i++) 
+for (i = 0; i < n; i++)
 {
 string = va_arg(aps, char *);
 if (string == NULL)
